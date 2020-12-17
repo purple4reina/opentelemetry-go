@@ -5,7 +5,8 @@ go 1.13
 replace go.opentelemetry.io/otel => ../../..
 
 require (
-	github.com/prometheus/client_golang v1.7.1
+	github.com/prometheus/client_golang v1.9.0
 	github.com/stretchr/testify v1.6.1
-	go.opentelemetry.io/otel v0.9.0
+	go.opentelemetry.io/otel v0.15.0 // indirect
+	go.opentelemetry.io/otel/sdk v0.15.0
 )
